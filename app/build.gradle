@@ -1,0 +1,17 @@
+
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.+'
+
+}
+
+task teste(type:test) {}
